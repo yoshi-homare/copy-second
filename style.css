@@ -6,11 +6,13 @@ body {
   font-family: verdana, sans-serif;
 }
 
-header {
-  height: 80px;
-}
 img {
   max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 80px;
 }
 
 .title {
@@ -48,14 +50,14 @@ header li img {
 }
 
 .top_img img {
-  width: 100%;
+  padding: 0;
   height: 420px;
   object-fit: cover;
 }
 
 .about {
   margin-bottom: 80px;
-  padding: 0 4%;
+  padding: 0 5%;
 }
 
 .about .name {
@@ -70,8 +72,9 @@ header li img {
 
 .works {
   margin-bottom: 80px;
-  padding: 0 4%;
+  padding: 0 5%;
 }
+
 .works .img {
   display: flex;
   justify-content: center;
@@ -89,7 +92,7 @@ header li img {
 
 .news {
   margin-bottom: 80px;
-  padding: 0 4%;
+  padding: 0 5%;
 }
 
 .news dt {
